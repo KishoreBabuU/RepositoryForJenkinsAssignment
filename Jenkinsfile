@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     checkout scm
-                    bat 'javac HelloWorld.java && java HelloWorld'
+                    bat 'javac C:\Users\dell\eclipse-workspace\JenkinsAssignment\src\HelloWorld.java'
                 }
             }
         }
@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     checkout scm
-                    bat 'javac HelloWipro.java && java HelloWipro'
+                    bat 'javac C:\Users\dell\eclipse-workspace\JenkinsAssignment\src\HelloWipro.java'
                 }
             }
         }
@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     checkout scm
-                    bat 'javac HelloJenkins.java && java HelloJenkins'
+                    bat 'javac C:\Users\dell\eclipse-workspace\JenkinsAssignment\src\HelloJenkins.java'
                 }
             }
         }
