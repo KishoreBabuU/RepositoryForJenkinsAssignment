@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     checkout scm
-                    bat 'javac C:\\Users\\dell\\eclipse-workspace\\JenkinsAssignment\\src\/HelloWorld.java'
+                    bat 'javac C:\\Users\\dell\\eclipse-workspace\\JenkinsAssignment\\src\\HelloWorld.java'
                 }
             }
         }
